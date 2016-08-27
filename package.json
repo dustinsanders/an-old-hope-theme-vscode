@@ -1,0 +1,22 @@
+{
+    "name": "an-old-hope-theme-vscode",
+    "displayName": "An Old Hope Theme",
+    "description": "vscode theme inspired by @JesseLeite's atom syntax",
+    "version": "0.0.1",
+    "publisher": "dustinsanders",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "An Old Hope",
+                "uiTheme": "vs-dark",
+                "path": "./themes/AnOldHope.tmTheme"
+            }
+        ]
+    }
+}
