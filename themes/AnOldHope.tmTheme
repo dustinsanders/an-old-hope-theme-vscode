@@ -16,7 +16,7 @@
 				<key>background</key>
 				<string>#1C1D21</string>
 				<key>caret</key>
-				<string>#4fb4d8</string>
+				<string>#cbcdd2</string>
 				<key>foreground</key>
 				<string>#cbcdd2</string>
 				<key>invisibles</key>
@@ -192,7 +192,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EF7C2A</string>
+				<string>#EB3D54</string>
 			</dict>
 		</dict>
 		<dict>
@@ -231,7 +231,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#EF7C2A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -254,8 +254,6 @@
 			<string>support.other.variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#CBCDD2</string>
 			</dict>
