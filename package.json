@@ -17,6 +17,11 @@
                 "label": "An Old Hope",
                 "uiTheme": "vs-dark",
                 "path": "./themes/AnOldHope.tmTheme"
+            },
+            {
+                "label": "An Old Hope Light",
+                "uiTheme": "vs",
+                "path": "./themes/AnOldHopeLight.tmTheme"
             }
         ]
     }
