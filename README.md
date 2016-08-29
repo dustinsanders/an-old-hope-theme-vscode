@@ -5,8 +5,11 @@
 ## Palette
 ![palette](https://raw.githubusercontent.com/JesseLeite/an-old-hope-syntax-atom/master/palette.jpg)
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/dustinsanders/an-old-hope-theme-vscode/master/screenshot.png)
+## Dark Version
+![dark version](https://raw.githubusercontent.com/dustinsanders/an-old-hope-theme-vscode/master/dark.png)
+
+## Light Version
+![light version](https://raw.githubusercontent.com/dustinsanders/an-old-hope-theme-vscode/master/light.png)
 
 ## More Information
 * [Github](https://github.com/dustinsanders/an-old-hope-theme-vscode)
