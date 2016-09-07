@@ -22,6 +22,11 @@
                 "label": "An Old Hope Light",
                 "uiTheme": "vs",
                 "path": "./themes/AnOldHopeLight.tmTheme"
+            },
+	    {
+                "label": "An Old Hope Light Tame",
+                "uiTheme": "vs",
+                "path": "./themes/AnOldHopeLightTame.tmTheme"
             }
         ]
     }
