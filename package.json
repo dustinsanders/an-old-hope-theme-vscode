@@ -12,8 +12,7 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
+        "themes": [{
                 "label": "An Old Hope",
                 "uiTheme": "vs-dark",
                 "path": "./themes/AnOldHope.tmTheme"

@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>AnOldHopeLight</string>
+	<string>AnOldHopeLight Edit</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -35,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#686B78</string>
+				<string>#2E3A7042</string>
 			</dict>
 		</dict>
 		<dict>
@@ -46,7 +46,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4FB4D8</string>
+				<string>#01a8e3ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -57,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EF7C2A</string>
+				<string>#d75900ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,7 +68,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EF7C2A</string>
+				<string>#d75900ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +79,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EF7C2A</string>
+				<string>#d75900ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -92,7 +92,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#1C1D21</string>
+				<string>#000000ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,7 +103,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#78BD65</string>
+				<string>#40c41cff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -116,7 +116,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#e6001eff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +127,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#e6001eff</string>
 				<key>fontStyle</key>
 				<string> italic </string>
 			</dict>
@@ -140,7 +140,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#DBBA00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -153,7 +153,7 @@
 				<key>fontStyle</key>
 				<string>  italic</string>
 				<key>foreground</key>
-				<string>#4FB4D8</string>
+				<string>#01a8e3ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -166,7 +166,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#DBBA00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -177,7 +177,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#DBBA00</string>
 				<key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -192,7 +192,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#e6001eff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -205,7 +205,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#DBBA00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -215,10 +215,8 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#E5CD52</string>
+				<string>#DBB700</string>
 			</dict>
 		</dict>
 		<dict>
@@ -231,7 +229,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EF7C2A</string>
+				<string>#d75900ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -242,7 +240,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#eb3d54</string>
+				<string>#e6001eff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -253,7 +251,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1C1D21</string>
+				<string>#000000ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -268,7 +266,7 @@
 				<key>fontStyle</key>
 				<string> italic bold underline</string>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#e6001eff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -281,9 +279,20 @@
 				<key>background</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EB3D54</string>
+				<string>#e6001eff</string>
 				<key>fontStyle</key>
 				<string> bold italic underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accessor Period</string>
+			<key>scope</key>
+			<string>accessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
 			</dict>
 		</dict>
 	</array>
@@ -292,7 +301,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.an_old_hope</string>
+	<string>theme.light.an_old_hope_light_edit</string>
 	<key>author</key>
 	<string>Dustin Sanders</string>
 </dict>
