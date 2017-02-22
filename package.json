@@ -2,7 +2,7 @@
     "name": "an-old-hope-theme-vscode",
     "displayName": "An Old Hope Theme",
     "description": "vscode theme inspired by @JesseLeite's atom syntax",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "dustinsanders",
     "engines": {
         "vscode": "^1.0.0"
