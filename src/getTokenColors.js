@@ -133,7 +133,7 @@ module.exports = ({
       'meta.class meta.method.declaration meta.var.expr storage.type.js'
     ],
     'settings': {
-      'foreground': green
+      'foreground': red
     }
   },
   {
@@ -164,7 +164,7 @@ module.exports = ({
     'name': 'Function Parameters',
     'scope': 'variable.parameter',
     'settings': {
-      'foreground': yellow
+      'foreground': blue //test
     }
   },
   {
@@ -373,14 +373,14 @@ module.exports = ({
     'name': 'Constant Other Color',
     'scope': 'constant.other.color',
     'settings': {
-      'foreground': '#FFEB95'
+      'foreground': green
     }
   },
   {
     'name': 'Keyword Other Unit',
     'scope': 'keyword.other.unit',
     'settings': {
-      'foreground': '#FFEB95'
+      'foreground': green
     }
   },
   {
@@ -697,7 +697,7 @@ module.exports = ({
     'name': 'CSS Keyword Other Unit',
     'scope': 'keyword.other.unit.css',
     'settings': {
-      'foreground': '#FFEB95'
+      'foreground': green
     }
   },
   {
@@ -849,7 +849,7 @@ module.exports = ({
     'name': 'JavaScript Variable Parameter Function',
     'scope': 'variable.parameter.function.js',
     'settings': {
-      'foreground': yellow
+      'foreground': blue //test
     }
   },
   {
@@ -958,7 +958,7 @@ module.exports = ({
     'name': 'LESS Keyword Other Unit',
     'scope': 'keyword.other.unit.css',
     'settings': {
-      'foreground': '#FFEB95'
+      'foreground': green
     }
   },
   {
@@ -1105,7 +1105,7 @@ module.exports = ({
       'meta.function-call.arguments.python'
     ],
     'settings': {
-      'foreground': yellow
+      'foreground': blue //test
     }
   },
   {
@@ -1198,7 +1198,7 @@ module.exports = ({
       'keyword.other.unit.sass'
     ],
     'settings': {
-      'foreground': '#FFEB95'
+      'foreground': green
     }
   },
   {
