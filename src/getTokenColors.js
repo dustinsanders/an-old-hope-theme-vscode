@@ -7,9 +7,6 @@ module.exports = ({
   orange,
   red,
   yellow,
-
-  paleBlue,
-  paleLightBlue,
 }) => [
   {
     'name': 'Global settings',
@@ -64,7 +61,7 @@ module.exports = ({
       'variable.other.constant'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -74,7 +71,7 @@ module.exports = ({
       'constant.other'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -157,7 +154,7 @@ module.exports = ({
     'name': 'Function name',
     'scope': 'entity.name.function',
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -224,14 +221,14 @@ module.exports = ({
       'support.constant'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
     'name': 'Support Constant Property Value meta',
     'scope': 'support.constant.meta.property-value',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -341,7 +338,7 @@ module.exports = ({
     'name': 'Variable Parameter Function',
     'scope': 'variable.parameter.function',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -426,7 +423,7 @@ module.exports = ({
     'name': 'Keyword Control Operator',
     'scope': 'keyword.control.operator',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -455,14 +452,14 @@ module.exports = ({
       'variable.other.object.property'
     ],
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
     'name': 'Entity Name Function',
     'scope': 'entity.name.function',
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -480,14 +477,14 @@ module.exports = ({
       'keyword.other.new'
     ],
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
     'name': 'Support Function',
     'scope': 'support.function',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -525,14 +522,14 @@ module.exports = ({
     'name': 'Support Variable Property',
     'scope': 'support.variable.property',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
     'name': 'Variable Function',
     'scope': 'variable.function',
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -546,7 +543,7 @@ module.exports = ({
     'name': 'Meta Function Call',
     'scope': 'meta.function-call',
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -618,7 +615,7 @@ module.exports = ({
     'name': 'CoffeScript Variable Assignment',
     'scope': 'variable.assignment.coffee',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -632,7 +629,7 @@ module.exports = ({
     'name': 'CoffeeScript Assignments',
     'scope': 'variable.assignment.coffee',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -649,7 +646,7 @@ module.exports = ({
       'storage.type.cs'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -703,7 +700,7 @@ module.exports = ({
       'source.elixir meta.module.elixir entity.name.class.elixir'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -720,7 +717,7 @@ module.exports = ({
       'source.elixir constant.other.keywords.elixir'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -765,7 +762,7 @@ module.exports = ({
     'name': 'HTML Punctuation Definition Tag',
     'scope': 'punctuation.definition.tag.html',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -786,7 +783,7 @@ module.exports = ({
     'name': 'JavaScript Method Declaration e.g. `constructor`',
     'scope': 'meta.method.declaration storage.type.js',
     'settings': {
-      'foreground': paleBlue,
+      'foreground': yellow,
       'fontStyle': 'normal'
     }
   },
@@ -933,7 +930,7 @@ module.exports = ({
     'name': 'Ruby Hashkeys',
     'scope': 'constant.language.symbol.hashkey.ruby',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
@@ -961,7 +958,7 @@ module.exports = ({
     'name': 'Markdown Headings',
     'scope': 'markup.heading.markdown',
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1024,7 +1021,7 @@ module.exports = ({
       'meta.link.inline.markdown punctuation.definition.string'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1042,7 +1039,7 @@ module.exports = ({
       'beginning.punctuation.definition.list.markdown'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1111,7 +1108,7 @@ module.exports = ({
       'source.css.sass meta.at-rule variable'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1171,7 +1168,7 @@ module.exports = ({
       'entity.name.type.tsx'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1181,7 +1178,7 @@ module.exports = ({
       'support.class.node.tsx'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1211,7 +1208,7 @@ module.exports = ({
       'meta.decorator punctuation.decorator.tsx'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
@@ -1221,14 +1218,14 @@ module.exports = ({
       'meta.tag.js meta.jsx.children.tsx'
     ],
     'settings': {
-      'foreground': paleBlue
+      'foreground': yellow
     }
   },
   {
     'name': 'YAML Entity Name Tags',
     'scope': 'entity.name.tag.yaml',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': orange
     }
   },
   {
