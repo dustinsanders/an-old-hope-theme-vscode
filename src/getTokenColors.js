@@ -98,7 +98,7 @@ module.exports = ({
     'name': 'Comma in functions',
     'scope': 'meta.function punctuation.separator.comma',
     'settings': {
-      'foreground': '#eeffff'
+      'foreground': foreground
     }
   },
   {
@@ -164,7 +164,7 @@ module.exports = ({
     'name': 'Function Parameters',
     'scope': 'variable.parameter',
     'settings': {
-      'foreground': blue //test
+      'foreground': blue
     }
   },
   {
@@ -247,23 +247,23 @@ module.exports = ({
     'name': 'Invalid',
     'scope': 'invalid',
     'settings': {
-      'background': '#ff2c83',
-      'foreground': '#ffffff'
+      'background': red,
+      'foreground': foreground
     }
   },
   {
     'name': 'Invalid deprecated',
     'scope': 'invalid.deprecated',
     'settings': {
-      'foreground': '#ffffff',
-      'background': '#d3423e'
+      'foreground': foreground,
+      'background': red,
     }
   },
   {
     'name': 'Keyword Operator',
     'scope': 'keyword.operator',
     'settings': {
-      'foreground': paleLightBlue
+      'foreground': blue
     }
   },
   {
@@ -285,13 +285,6 @@ module.exports = ({
     'scope': 'comment.line.double-slash',
     'settings': {
       'foreground': comment
-    }
-  },
-  {
-    'name': 'Object',
-    'scope': 'object',
-    'settings': {
-      'foreground': '#cdebf7'
     }
   },
   {
@@ -319,7 +312,7 @@ module.exports = ({
     'name': 'Punctuation Definition String',
     'scope': 'punctuation.definition.string',
     'settings': {
-      'foreground': '#d9f5dd'
+      'foreground': blue
     }
   },
   {
@@ -333,7 +326,7 @@ module.exports = ({
     'name': 'Object Comma',
     'scope': 'object.comma',
     'settings': {
-      'foreground': '#ffffff'
+      'foreground': foreground
     }
   },
   {
@@ -394,7 +387,7 @@ module.exports = ({
     'name': 'Entity Other Attribute Name Id',
     'scope': 'entity.other.attribute-name.id',
     'settings': {
-      'foreground': '#FAD430'
+      'foreground': yellow
     }
   },
   {
@@ -418,7 +411,7 @@ module.exports = ({
     'name': 'Punctuation Definition Parameters',
     'scope': 'punctuation.definition.parameters',
     'settings': {
-      'foreground': '#d9f5dd'
+      'foreground': blue
     }
   },
   {
@@ -493,24 +486,24 @@ module.exports = ({
     'name': 'Invalid Broken',
     'scope': 'invalid.broken',
     'settings': {
-      'foreground': '#020e14',
-      'background': orange
+      'background': red,
+      'foreground': background,
     }
   },
   {
     'name': 'Invalid Unimplemented',
     'scope': 'invalid.unimplemented',
     'settings': {
-      'background': '#8BD649',
-      'foreground': '#ffffff'
+      'background': orange,
+      'foreground': foreground,
     }
   },
   {
     'name': 'Invalid Illegal',
     'scope': 'invalid.illegal',
     'settings': {
-      'foreground': '#ffffff',
-      'background': '#ec5f67'
+      'foreground': foreground,
+      'background': red
     }
   },
   {
@@ -538,7 +531,7 @@ module.exports = ({
     'name': 'Variable Interpolation',
     'scope': 'variable.interpolation',
     'settings': {
-      'foreground': '#ec5f67'
+      'foreground': red
     }
   },
   {
@@ -552,7 +545,7 @@ module.exports = ({
     'name': 'Punctuation Section Embedded',
     'scope': 'punctuation.section.embedded',
     'settings': {
-      'foreground': '#d3423e'
+      'foreground': red
     }
   },
   {
@@ -569,22 +562,10 @@ module.exports = ({
     }
   },
   {
-    'name': 'More Punctuation Tweaks',
-    'scope': [
-      'punctuation.definition.list.begin',
-      'punctuation.definition.list.end',
-      'punctuation.separator.arguments',
-      'punctuation.definition.list'
-    ],
-    'settings': {
-      'foreground': '#d9f5dd'
-    }
-  },
-  {
     'name': 'Template Strings',
     'scope': 'string.template meta.template.expression',
     'settings': {
-      'foreground': '#d3423e'
+      'foreground': red
     }
   },
   {
@@ -667,7 +648,7 @@ module.exports = ({
     'name': 'C# Namespaces',
     'scope': 'entity.name.type.namespace.cs',
     'settings': {
-      'foreground': '#B2CCD6'
+      'foreground': green
     }
   },
   {
@@ -762,7 +743,7 @@ module.exports = ({
     'name': 'Go Function Calls',
     'scope': 'source.go meta.function-call.go',
     'settings': {
-      'foreground': '#DDDDDD'
+      'foreground': yellow
     }
   },
   {
@@ -822,7 +803,7 @@ module.exports = ({
       'entity.name.type.instance.phpdoc'
     ],
     'settings': {
-      'foreground': '#eeffff'
+      'foreground': foreground
     }
   },
   {
@@ -832,7 +813,7 @@ module.exports = ({
       'variable.other.phpdoc'
     ],
     'settings': {
-      'foreground': '#78ccf0'
+      'foreground': blue
     }
   },
   {
@@ -849,7 +830,7 @@ module.exports = ({
     'name': 'JavaScript Variable Parameter Function',
     'scope': 'variable.parameter.function.js',
     'settings': {
-      'foreground': blue //test
+      'foreground': blue
     }
   },
   {
@@ -1013,7 +994,7 @@ module.exports = ({
       'markup.underline.link.image.markdown'
     ],
     'settings': {
-      'foreground': '#ff869a'
+      'foreground': blue
     }
   },
   {
@@ -1054,13 +1035,6 @@ module.exports = ({
     ],
     'settings': {
       'foreground': paleBlue
-    }
-  },
-  {
-    'name': 'PHP Variables',
-    'scope': 'variable.other.php',
-    'settings': {
-      'foreground': '#bec5d4'
     }
   },
   {
@@ -1105,17 +1079,7 @@ module.exports = ({
       'meta.function-call.arguments.python'
     ],
     'settings': {
-      'foreground': blue //test
-    }
-  },
-  {
-    'name': 'Python Function Call',
-    'scope': [
-      'meta.function-call.python',
-      'meta.function-call.generic.python'
-    ],
-    'settings': {
-      'foreground': '#B2CCD6'
+      'foreground': blue
     }
   },
   {
@@ -1133,25 +1097,6 @@ module.exports = ({
     }
   },
   {
-    'name': 'Python Language Variable',
-    'scope': 'source.python variable.language.special',
-    'settings': {
-      'foreground': '#8EACE3'
-    }
-  },
-  {
-    'name': 'SCSS Variable',
-    'scope': [
-      'variable.scss',
-      'variable.sass',
-      'variable.parameter.url.scss',
-      'variable.parameter.url.sass'
-    ],
-    'settings': {
-      'foreground': '#DDDDDD'
-    }
-  },
-  {
     'name': 'Variables in SASS At-Rules',
     'scope': [
       'source.css.scss meta.at-rule variable',
@@ -1159,16 +1104,6 @@ module.exports = ({
     ],
     'settings': {
       'foreground': paleBlue
-    }
-  },
-  {
-    'name': 'Variables in SASS At-Rules',
-    'scope': [
-      'source.css.scss meta.at-rule variable',
-      'source.css.sass meta.at-rule variable'
-    ],
-    'settings': {
-      'foreground': '#bec5d4'
     }
   },
   {
@@ -1228,7 +1163,7 @@ module.exports = ({
       'entity.name.type.tsx'
     ],
     'settings': {
-      'foreground': '#78ccf0'
+      'foreground': paleBlue
     }
   },
   {
@@ -1248,7 +1183,7 @@ module.exports = ({
       'meta.type.parameters.tsx entity.name.type'
     ],
     'settings': {
-      'foreground': '#eeffff'
+      'foreground': foreground
     }
   },
   {
