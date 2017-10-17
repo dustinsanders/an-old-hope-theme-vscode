@@ -4,6 +4,9 @@
     "description": "vscode theme inspired by @JesseLeite's atom syntax",
     "version": "2.0.0",
     "publisher": "dustinsanders",
+    "scripts": {
+        "build": "node ./src/writeTheme.js"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
