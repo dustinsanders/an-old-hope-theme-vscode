@@ -180,19 +180,27 @@ module.exports = ({
   {
     'name': 'HTML Tag names',
     'scope': [
-      'entity.name.tag support.class.component',
+      'support.class.component',
       'meta.tag.other.html',
       'meta.tag.other.js',
       'meta.tag.other.tsx',
-      'entity.name.tag.tsx',
-      'entity.name.tag.js',
-      'entity.name.tag',
       'meta.tag.js',
       'meta.tag.tsx',
       'meta.tag.html'
     ],
     'settings': {
       'foreground': red
+    }
+  },
+  {
+    'name': 'HTML Tag names',
+    'scope': [
+      'entity.name.tag.tsx',
+      'entity.name.tag.js',
+      'entity.name.tag',
+    ],
+    'settings': {
+      'foreground': green
     }
   },
   {
@@ -312,7 +320,7 @@ module.exports = ({
     'name': 'Punctuation Definition String',
     'scope': 'punctuation.definition.string',
     'settings': {
-      'foreground': blue
+      'foreground': foreground
     }
   },
   {
@@ -411,7 +419,7 @@ module.exports = ({
     'name': 'Punctuation Definition Parameters',
     'scope': 'punctuation.definition.parameters',
     'settings': {
-      'foreground': blue
+      'foreground': foreground
     }
   },
   {

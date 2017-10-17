@@ -65,7 +65,7 @@ module.exports = ({
   'sideBarSectionHeader.foreground': foreground,
   'editorGroup.background': null,
   'editorGroup.border': null,
-  'editorGroup.dropBackground': shadeColor(background, 35),
+  'editorGroup.dropBackground': null,
   'editorGroupHeader.noTabsBackground': null,
   'editorGroupHeader.tabsBackground': background,
   'editorGroupHeader.tabsBorder': background,
