@@ -13,4 +13,4 @@ const content = {
   tokenColors,
 }
 
-writeFileSync('./AnOldHope.json', JSON.stringify(content))
+writeFileSync('./themes/AnOldHope.json', JSON.stringify(content))
