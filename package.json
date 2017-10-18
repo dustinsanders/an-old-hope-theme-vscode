@@ -22,6 +22,11 @@
                 "path": "./themes/AnOldHope.json"
             },
             {
+                "label": "An Old Hope Classic",
+                "uiTheme": "vs-dark",
+                "path": "./legacy/AnOldHope.tmTheme"
+            },
+            {
                 "label": "An Old Hope Light",
                 "uiTheme": "vs",
                 "path": "./legacy/AnOldHopeLight.tmTheme"
