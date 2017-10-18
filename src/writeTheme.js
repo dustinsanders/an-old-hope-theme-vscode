@@ -4,9 +4,9 @@ const getColors = require('./getColors')
 const getTokenColors = require('./getTokenColors')
 const palette = require('./palette')
 
-const test = Object.assign(palette, AnOldHope)
-const colors = getColors(test)
-const tokenColors = getTokenColors(test)
+const themeMeta = Object.assign(palette, AnOldHope)
+const colors = getColors(themeMeta)
+const tokenColors = getTokenColors(themeMeta)
 
 const content = {
   colors,
