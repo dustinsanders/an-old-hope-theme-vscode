@@ -24,7 +24,7 @@
             {
                 "label": "An Old Hope Light",
                 "uiTheme": "vs",
-                "path": "./themes/legacy/AnOldHopeLight.tmTheme"
+                "path": "./legacy/AnOldHopeLight.tmTheme"
             }
         ]
     }
