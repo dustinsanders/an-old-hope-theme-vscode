@@ -171,7 +171,7 @@ module.exports = ({
       'meta.tag'
     ],
     'settings': {
-      'foreground': blue
+      'foreground': foreground
     }
   },
   {
@@ -197,7 +197,7 @@ module.exports = ({
       'entity.name.tag',
     ],
     'settings': {
-      'foreground': green
+      'foreground': red
     }
   },
   {
@@ -268,7 +268,7 @@ module.exports = ({
     'name': 'Keyword Operator',
     'scope': 'keyword.operator',
     'settings': {
-      'foreground': blue
+      'foreground': green
     }
   },
   {
@@ -311,13 +311,6 @@ module.exports = ({
     'scope': 'meta.delimiter.period',
     'settings': {
       'foreground': green
-    }
-  },
-  {
-    'name': 'Punctuation Definition String',
-    'scope': 'punctuation.definition.string',
-    'settings': {
-      'foreground': foreground
     }
   },
   {
@@ -554,30 +547,10 @@ module.exports = ({
     }
   },
   {
-    'name': 'Punctuation Tweaks',
-    'scope': [
-      'punctuation.terminator.expression',
-      'punctuation.definition.arguments',
-      'punctuation.definition.array',
-      'punctuation.section.array',
-      'meta.array'
-    ],
-    'settings': {
-      'foreground': foreground
-    }
-  },
-  {
     'name': 'Template Strings',
     'scope': 'string.template meta.template.expression',
     'settings': {
       'foreground': red
-    }
-  },
-  {
-    'name': 'Backtics(``) in Template Strings',
-    'scope': 'string.template punctuation.definition.string',
-    'settings': {
-      'foreground': foreground
     }
   },
   {
@@ -600,7 +573,7 @@ module.exports = ({
     'name': 'Quote',
     'scope': 'quote',
     'settings': {
-      'foreground': comment,
+      'foreground': blue,
       'fontStyle': 'italic'
     }
   },
@@ -981,7 +954,7 @@ module.exports = ({
     'name': 'Markdown Quote + others',
     'scope': 'markup.quote.markdown',
     'settings': {
-      'foreground': comment,
+      'foreground': blue,
       'fontStyle': 'italic'
     }
   },
