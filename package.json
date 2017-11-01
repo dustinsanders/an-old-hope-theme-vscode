@@ -5,6 +5,7 @@
     "version": "3.1.0",
     "publisher": "dustinsanders",
     "scripts": {
+        "prebuild": "rm -rf themes && mkdir themes",
         "build": "node ./src/writeTheme.js"
     },
     "engines": {

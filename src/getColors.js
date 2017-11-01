@@ -88,7 +88,7 @@ module.exports = ({
   'editor.inactiveSelectionBackground': shadeColor(selection, -10),
   'editor.wordHighlightBackground': selection,
   'editor.wordHighlightStrongBackground': selection,
-  'editor.findMatchBackground': blue,
+  'editor.findMatchBackground': null,
   'editor.findMatchHighlightBackground': selection,
   'editor.findRangeHighlightBackground': selection,
   'editor.hoverHighlightBackground': selection,
