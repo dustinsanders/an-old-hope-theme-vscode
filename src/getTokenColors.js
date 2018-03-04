@@ -1250,7 +1250,6 @@ module.exports = ({
       'support.constant.math',
       'meta.object-literal.key',
       'meta.var.expr storage.type',
-      'text.html.markdown',
       'parameter',
       'string',
       'italic',
