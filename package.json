@@ -6,7 +6,12 @@
     "publisher": "dustinsanders",
     "scripts": {
         "prebuild": "rm -rf themes && mkdir themes",
-        "build": "node ./src/writeTheme.js"
+        "build": "node ./src/writeTheme.js",
+        "install:local": "node ./installLocal.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:dustinsanders/an-old-hope-theme-vscode.git"
     },
     "engines": {
         "vscode": "^1.0.0"
