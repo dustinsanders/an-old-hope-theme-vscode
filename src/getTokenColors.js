@@ -61,7 +61,7 @@ module.exports = ({
       'variable.other.constant'
     ],
     'settings': {
-      'foreground': yellow
+      'foreground': foreground
     }
   },
   {
