@@ -28,6 +28,11 @@
                 "path": "./themes/AnOldHope.json"
             },
             {
+                "label": "An Old Hope Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/AnOldHopeItalic.json"
+            },
+            {
                 "label": "An Old Hope Classic",
                 "uiTheme": "vs-dark",
                 "path": "./legacy/AnOldHope.tmTheme"

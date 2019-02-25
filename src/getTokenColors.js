@@ -1,13 +1,16 @@
-module.exports = ({
-  background,
-  blue,
-  comment,
-  foreground,
-  green,
-  orange,
-  red,
-  yellow,
-}) => [
+module.exports = (
+  {
+    background,
+    blue,
+    comment,
+    foreground,
+    green,
+    orange,
+    red,
+    yellow,
+  },
+  useItalics,
+) => [
   {
     'name': 'Global settings',
     'settings': {
@@ -1270,7 +1273,7 @@ module.exports = ({
       'comment'
     ],
     'settings': {
-      'fontStyle': 'italic'
+      'fontStyle': useItalics ? 'italic' : 'normal'
     }
-  }
-  ]
+  },
+]
