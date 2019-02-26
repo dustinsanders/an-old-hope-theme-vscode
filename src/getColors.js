@@ -37,7 +37,7 @@ module.exports = ({
   'inputValidation.warningBorder': orange,
   'scrollbar.shadow': null,
   'scrollbarSlider.activeBackground': secondary,
-  'scrollbarSlider.background': shadeColor(secondary, 10),
+  'scrollbarSlider.background': `${secondary}80`,
   'scrollbarSlider.hoverBackground': secondary,
   'badge.background': background,
   'badge.foreground': foreground,

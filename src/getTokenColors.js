@@ -1194,7 +1194,7 @@ module.exports = (
       'meta.tag.js meta.jsx.children.tsx'
     ],
     'settings': {
-      'foreground': yellow
+      'foreground': foreground
     }
   },
   {
