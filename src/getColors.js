@@ -96,7 +96,7 @@ module.exports = ({
   'editor.hoverHighlightBackground': selection,
   'editor.lineHighlightBackground': selection,
   'editor.lineHighlightBorder': selection,
-  'editorLink.activeForeground': null,
+  'editorLink.activeForeground': shadeColor(blue, 30),
   'editor.rangeHighlightBackground': selection,
   'editorWhitespace.foreground': null,
   'editorIndentGuide.activeBackground': comment,
