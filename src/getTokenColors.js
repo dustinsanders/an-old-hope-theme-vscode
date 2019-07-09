@@ -1,13 +1,16 @@
-module.exports = ({
-  background,
-  blue,
-  comment,
-  foreground,
-  green,
-  orange,
-  red,
-  yellow,
-}) => [
+module.exports = (
+  {
+    background,
+    blue,
+    comment,
+    foreground,
+    green,
+    orange,
+    red,
+    yellow,
+  },
+  useItalics,
+) => [
   {
     'name': 'Global settings',
     'settings': {
@@ -61,7 +64,7 @@ module.exports = ({
       'variable.other.constant'
     ],
     'settings': {
-      'foreground': yellow
+      'foreground': foreground
     }
   },
   {
@@ -1191,7 +1194,7 @@ module.exports = ({
       'meta.tag.js meta.jsx.children.tsx'
     ],
     'settings': {
-      'foreground': yellow
+      'foreground': foreground
     }
   },
   {
@@ -1270,7 +1273,7 @@ module.exports = ({
       'comment'
     ],
     'settings': {
-      'fontStyle': 'italic'
+      'fontStyle': useItalics ? 'italic' : 'normal'
     }
-  }
-  ]
+  },
+]
