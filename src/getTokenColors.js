@@ -184,7 +184,6 @@ module.exports = (
       'meta.tag.other.html',
       'meta.tag.other.js',
       'meta.tag.other.tsx',
-      'meta.tag.js',
       'meta.tag.tsx',
       'meta.tag.html'
     ],
