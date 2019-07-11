@@ -2,7 +2,7 @@
     "name": "an-old-hope-theme-vscode",
     "displayName": "An Old Hope Theme",
     "description": "vscode theme inspired by a galaxy far far away...",
-    "version": "4.0.0",
+    "version": "4.1.0",
     "publisher": "dustinsanders",
     "scripts": {
         "prebuild": "rm -rf themes && mkdir themes",
