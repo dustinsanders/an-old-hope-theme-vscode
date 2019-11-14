@@ -157,7 +157,7 @@ module.exports = ({
   'merge.incomingContentBackground': null,
   'merge.border': null,
   'panel.background': background,
-  'panel.border': background,
+  'panel.border': secondary,
   'panelTitle.activeBorder': blue,
   'panelTitle.activeForeground': foreground,
   'panelTitle.inactiveForeground': null,
