@@ -15,7 +15,7 @@ const makeGetContent = theme =>
       tokenColors,
     }
 
-    return JSON.stringify(content)
+    return JSON.stringify(content, null, 2)
   }
 
 const writeTheme = themeKey => {
